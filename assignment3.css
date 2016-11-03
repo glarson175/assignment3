@@ -1,1 +1,6 @@
 /*styles for assignment 3*/
+section>p{
+	color:red;
+	font-style: italic;
+	font-size:40px;
+}
