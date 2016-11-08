@@ -2,6 +2,9 @@
 	spl_autoload_register(function ($class_name) {
 			include $class_name . '.php';
 	});
+	//$gabriel = new ParentClass("Gabriel", "senior", "breast");
+	$gabe = new ChildClass("Gabe", "senior", "Breaststroke");
+	//$ = array("Volvo", "BMW", "Toyota");
 
 ?>
 
@@ -11,16 +14,25 @@
 	<meta charset="UTF-8">
 	<title>Assignment 3</title>
 	
-	<link rel="stylesheet" href="assignment3.css">
+	
+	<link rel='stylesheet' type='text/css' href='assignment3css.php' />
 </head>
 <body>
 	
 	<section>
 		<p>how do i use my php? HOW!?!!?</p>
-		<p>I'm gabe, and php is weird to me</p>
-		<?php
-		echo "HELP ME!";
-		?>
+		<p>php is weird to me</p>
+		
+		<?= $gabe; ?>
+		
+		<p>But the coaches changed their minds. </p>
+		<?= $gabe->updateStroke("Butterfly"); ?>
+
+		<p>So...</p>
+		<?= $gabe; ?>
+		<p id = "goodluck"> Good luck learning a new stroke focus </p>
+		
+
 		
 	</section>
 </body>
