@@ -7,16 +7,28 @@
 		$tertiaryColor = "red";
 		
 ?>
-
-section>p{
-	color: <?php echo $tertiaryColor; ?>;
+body{
+	margin-left:20px;
+}
+p{
+	background-color: <?php echo $MainColor; ?>;
+	border: 2px solid  <?php echo $tertiaryColor; ?>;
+	color: <?php echo $secondaryColor; ?>;
 	font-style: italic;
 	font-size:20px;
+	padding-left: 10px;
 }
 
 #goodluck{
 	display: block;
-	color:<?php echo $MainColor; ?>;
+	color:<?php echo $secondaryColor; ?>;
 	font-size:40px;
-	border: 5px solid  <?php echo $secondaryColor; ?>;
+	
+}
+
+.output{
+	background-color: <?php echo $secondaryColor; ?>;
+	border: 2px solid  <?php echo $tertiaryColor; ?>;
+	color: <?php echo $tertiaryColor; ?>;
+	font-weight: bold;
 }

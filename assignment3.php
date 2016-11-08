@@ -23,13 +23,13 @@
 		<p>how do i use my php? HOW!?!!?</p>
 		<p>php is weird to me</p>
 		
-		<?= $gabe; ?>
+		<p class = "output"><?= $gabe; ?></p>
 		
 		<p>But the coaches changed their minds. </p>
 		<?= $gabe->updateStroke("Butterfly"); ?>
 
 		<p>So...</p>
-		<?= $gabe; ?>
+		<p class = "output"><?= $gabe; ?></p>
 		<p id = "goodluck"> Good luck learning a new stroke focus </p>
 		
 
