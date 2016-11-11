@@ -15,12 +15,24 @@
 			return $this->name;
 		}
 		
+		public function setName($newname){
+			$this->name = $newname;
+		}
+		
 		public function getYear(){
 			return $this->year;
 		}
 		
+		public function setYear($newyear){
+			$this->year = $newyear;
+		}
+		
 		public function getStroke(){
 			return $this->stroke;
+		}
+		
+		public function setStroke($newstroke){
+			$this->stroke = $newstroke;
 		}
 		
 		public function __toString(){

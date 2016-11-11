@@ -23,6 +23,8 @@
 		<p>how do i use my php? HOW!?!!?</p>
 		<p>php is weird to me</p>
 		
+		<!--<?= $gabriel;?>-->
+		
 		<p class = "output"><?= $gabe; ?></p>
 		
 		<p>But the coaches changed their minds. </p>
